@@ -1,3 +1,6 @@
+let continuar = true
+while(continuar) {
+
 operacao = prompt("digite a operação que deseja realizar: \n  soma \n  subtracao \n  multiplicacao \n  divisao \n quadrado \n raiz \n potencia \n seno \n cosseno \n tangente \n OBS: escreva sem acentuação e igual como aparece no texto")
 num1 = parseFloat(prompt("digite o primeiro número: "))
 num2 = parseFloat(prompt("digite o segundo número: ")) 
@@ -54,4 +57,6 @@ switch (operacao) {
 
     default:
     alert("operação inválida")
+
+  }
 }
